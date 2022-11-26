@@ -24,7 +24,7 @@ public class SearchIssueTest {
         steps.searchText("eroshenkoam/allure-example");
         step("В поисковой выдаче выбираем репозиторий eroshenkoam/allure-example");
         steps.openRepositoryTab("Issues");
-        step("Проверяем что Issue с номером #68 существует");
+        step("Проверяем что Issue с номером #69 существует");
     }
 
 }
