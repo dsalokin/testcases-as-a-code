@@ -16,7 +16,6 @@ public class SearchIssueTest {
     private WebSteps steps = new WebSteps();
 
     @Test
-    @AllureId("91456")
     @ProjectStories.IssuesSearch
     @Tags({@Tag("web"), @Tag("smoke")})
     @DisplayName("Поиск Issue по номеру в репозитории")
